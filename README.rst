@@ -2,7 +2,7 @@
  txgeonames
 ============
 
-txgeonames is a library for using the `geonames WebServices`_ from Twisted.
+txgeonames is `geonames WebServices`_ for Twisted.
 
 .. _`geonames WebServices`:  http://www.geonames.org/export/ws-overview.html
 
