@@ -2,7 +2,7 @@
 from setuptools import find_packages, setup
 
 setup(name='txgeonames',
-      version='0',
+      version='20120725',
       description='Twisted client for the GeoNames API',
       url='https://github.com/lvh/txgeonames',
 
