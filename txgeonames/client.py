@@ -14,7 +14,7 @@ class GeonamesClient(object):
     """
     A client for the Geonames API.
     """
-    _host = "api.geonames.com"
+    _host = "api.geonames.org"
     _getPage = staticmethod(client.getPage)
 
     def __init__(self, username=u"demo"):
