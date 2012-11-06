@@ -6,7 +6,20 @@ import urlparse
 from twisted.internet import defer
 from twisted.trial import unittest
 
-from txgeonames import client
+from txgeonames import client, interface as itxgeonames
+
+
+class InterfaceTests(unittest.TestCase):
+    """
+    Interface-related tests.
+    """
+    def test_implements(self):
+        """
+        Asserts that the client implements the interface.
+        """
+        I, C = itxgeonames.IGeonamesClient, client.GeonamesClient
+        self.assertTrue(I.implementedBy(C))
+
 
 
 class _ClientTestCase(unittest.TestCase):
